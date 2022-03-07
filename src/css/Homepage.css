@@ -1,0 +1,16 @@
+.post-link {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 500ms;
+}
+
+.post-link:hover, .post-link:focus {
+    background-color: aliceblue;
+    transform: scale(110%);
+}
+
+.post-date {
+    width: 100%;
+}

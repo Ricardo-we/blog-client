@@ -1,0 +1,19 @@
+.likes-btn{
+    border: none;
+    background-color: transparent;
+    transition: 500ms;
+    color: black;
+}
+
+.likes-btn:hover {
+    color: rgb(62, 99, 185);
+    transform: scale(110%);
+}
+
+.likes-btn:focus {
+    transform: scale(110%);
+}
+
+.likes-btn-active{
+    color: rgb(62, 99, 185);
+}
