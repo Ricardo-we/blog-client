@@ -9,10 +9,10 @@ function BlogNavBar() {
                 <Nav className="me-auto">
                     <Link to="/" className="nav-link">Home</Link>
                 </Nav>
-                <div className="ms-auto">
+                <Nav className="ms-auto">
                     <Link to="/login" className="nav-link me-auto">Login</Link>
-                    <Link to="/create-user" className="nav-link btn btn-outline-primary me-auto">Create user</Link>
-                </div>
+                    <Link to="/create-user" className="nav-link me-auto">Sign up</Link>
+                </Nav>
             </Container>
         </Navbar>
     );
