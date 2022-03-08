@@ -29,4 +29,4 @@ function App() {
 }
 
 export default App;
-export const APIURL = 'http://localhost:8000';
+export const APIURL = 'https://rdev-blog-rest-api.herokuapp.com';
